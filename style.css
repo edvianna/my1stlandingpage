@@ -1,0 +1,176 @@
+body{
+    background-color: black;
+    font-size: 6px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white; 
+    text-decoration: none;
+
+}
+
+
+header {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-around;
+    background-color:  rgb(44, 48, 62);
+    width: 75%;
+    margin: auto;
+    /*font-weight: 900;*/
+    
+}
+
+div{
+    background-color: rgb(44, 48, 62);
+    font-size: 9px;
+    font-family: Arial, Helvetica, sans-serif; 
+    color: white; 
+    
+}
+
+
+.container {
+    display: flex;
+    margin: auto;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 0px;
+    background-color:white;
+    height: 100vh; 
+    width: 75%;
+    min-height: 100%; 
+    flex-direction: column; 
+}
+
+.one, .two, .three, .four{
+    display: flex;
+    border: 0px solid rgb(0, 0, 0);
+    padding: 0px;
+    min-height: 25%;   
+    width: 100%;  
+}
+
+
+
+.one{
+    background-color:rgb(44, 48, 62);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.boxesq, .boxdir{
+    border: 0px solid blue;
+    width: 35%;
+    height: 60%;
+    background-color: transparent;   
+    color: black;
+  }
+
+  .boxdir{
+    background-color: grey;
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .boxesq{
+    background-color: transparent;
+  }
+
+  .boxesqinnerone{
+    font-size: 30px;
+  }
+
+.two{
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    font-size: 16px;
+    font-weight:bold;
+}
+
+.three{
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.innertext{    
+    overflow-wrap:break-word ;
+    width: 70%;
+    background-color: transparent;
+    color: black;
+    font-size: 18px;
+    font-weight: 100;
+}
+.innertexttwo{    
+    overflow-wrap:break-word ;
+    width: 50%;
+    text-align: right;
+    background-color: transparent;
+    color: black;
+}
+
+
+
+.four{
+    background-color: white;
+    display: flex;
+}
+
+.innerboxone{
+    width: fit-content;
+    margin: auto;    
+    background-color: transparent;
+    padding: 110px;
+    color: black;   
+    
+}
+
+.innerboxtwo{
+    width: fit-content;
+    margin: auto;    
+    background-color: rgb(2, 2, 85);
+    padding: 20px; 
+    border-radius: 15px;     
+}
+
+.itens{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: black;
+    margin: auto;
+    width: 75%;
+}
+
+.itemonesq, .itemtwosq, .itemthreesq, .itemfoursq {
+    border: 2px solid blue;
+    border-radius: 15%;
+    width: 85px;
+    height: 85px;
+    background-color: transparent;   
+    color: black;     
+}
+
+.itemonetext, .itemtwotext, .itemthreetext, .itemfourtext {
+    border: 0px;
+    border-radius: 15%;
+    width: 85px;
+    height: 60px;
+    background-color: transparent;   
+    color: black;     
+    font-size: 10px;
+    text-align: center;
+    overflow-wrap:break-word ;
+}
+
+.itemone, .itemtwo, .itemthree, .itemfour {
+    background-color: transparent;  
+    color: black;      
+}
+
